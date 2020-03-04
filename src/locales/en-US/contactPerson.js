@@ -1,0 +1,23 @@
+export default {
+  'app.contact.search':'Contact、Telephone',
+  'app.contact.contactName':'Name',
+  'app.contact.contactMobile':'Telephone',
+  'app.contact.contactEmail':'Email',
+  'app.contact.contactTitle':'Title',
+  'app.contact.contactOrganization':'Belong Company',
+  'app.contact.isEnableSms':'SMS',
+  'app.contact.isEnableEmail':'Email',
+  'app.contact.isEnableMoment':'Load-Moment',
+  'app.contact.isEnableAntiCollision':'Anti-collision',
+  'app.contact.isEnableOutOfZone':'Zoning Area',
+  'app.contact.isEnableSensor':'Sensor',
+  'app.contact.isEnableTrolley':'Radius',
+  'app.contact.isEnableHeight':'Height',
+  'app.contact.isEnableBypass':'Bypass',
+  'app.contact.isEnablePower':'Power',
+  'app.contact.isEnableWind':'Wind',
+  'app.contact.isEnableMaintenance':'Maintenance',
+  'app.contact.isEnableTampered':'Tampered',
+  'app.contact.isEnableTurningAngle':'Turning Zoning Area',
+  'app.contact.welcomeSms':'Need to send a welcome message?'
+}

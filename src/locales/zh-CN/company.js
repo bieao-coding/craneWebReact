@@ -1,0 +1,15 @@
+export default {
+  'app.company.businessLevel':'公司类型',
+  'app.company.craneCount':'塔机数量',
+  'app.company.antiOnlineCount':'防碰撞在线量',
+  'app.company.videoOnlineCount':'视频在线量',
+  'app.company.first-company':'一级单位',
+  'app.company.two-company':'二级单位',
+  'app.company.three-company':'三级单位',
+  'app.company.four-company':'四级单位',
+  'app.company.five-company':'五级单位',
+  'app.company.noExist-company':'未知单位',
+  'app.company.deviceCount':'设备数量',
+  'app.company.videoCount':'视频数量',
+  'app.company.manager':'负责人',
+}

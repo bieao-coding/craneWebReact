@@ -1,0 +1,56 @@
+@noHoverIcon:#effaff;
+@hoverIcon:#effaff;
+@hoverColor:#64b4ff;
+@noHoverColor:#d8ecff;
+.searchTree{
+  transition: all .2s ease-in-out;
+  flex:0 0 256px;
+  border-right:1px solid #d9d9d9;
+  :global{
+    .ant-tree{
+      cursor: pointer;
+      margin-right: 10px;
+      width: 246px;
+      overflow: auto;
+    }
+  }
+  .turnLeftRight {
+    display: flex;
+    transition: background-color .5s ease-in-out,color .5s ease-in-out,left .2s ease-in-out;
+    position:absolute;
+    left: 256px;
+    width: 10px;
+    height: 40px;
+    z-index: 10;
+    border-radius: 0 5px 5px 0;
+    background-color: @noHoverColor;
+    justify-content: center;
+    align-items: center;
+    color: @noHoverIcon;
+    font-size: 12px;
+    cursor: pointer;
+    i{
+      transition: all .2s;
+    }
+  }
+  .hoverColor {
+    background-color: @hoverColor !important;
+    color: @hoverIcon !important;
+  };
+  .fontSize12{font-size: 12px}
+  ::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+  }
+  ::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: #c3c3c3;
+  }
+};
+.flex0{
+  flex: 0;
+  margin-left: -257px;
+}
+.left0{left:0 !important;}
+.rotate180{transform: rotate(180deg)}

@@ -1,0 +1,23 @@
+export default {
+  'app.operator.workerName':'Worker Name',
+  'app.operator.identityNumber':'Identity Number',
+  'app.operator.telephone':'Telephone',
+  'app.operator.name-id':'name or id',
+  'app.operator.photo':'Photo',
+  'app.operator.insertTime':'Insert Time',
+  'app.operator.face-template':'Face Template',
+  'app.operator.face-photo':'Face Photo',
+  'app.operator.operator-ten':'Operators must less than 10',
+  'app.operator.device-offline':'Default',
+  'app.operator.faceTime':'Punch time',
+  'app.operator.face-status':'Status',
+  'app.operator.face-status-wait':'Waiting',
+  'app.operator.face-status-doing':'Doing',
+  'app.operator.face-status-success':'Success',
+  'app.operator.face-status-default':'Default',
+  'app.operator.face-model-noExist':'No Model',
+  'app.operator.template':'Feature',
+  'app.operator.has':'Existence',
+  'app.operator.no':'No Exist',
+
+}

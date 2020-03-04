@@ -1,0 +1,42 @@
+.dragging{
+  background-color:#141e27;
+  :global{
+    .ant-input-number{
+      background-color: transparent;
+      color:#fff;
+    }
+  }
+  .numberInput{
+    padding: 10px;
+    background-color: #141e27;
+    display: flex;
+    justify-content: space-between;
+  }
+  .craneInfo{
+    padding:10px;
+    color:#fff;
+    .title{
+      text-align: center;
+      font-size: 16px;
+      color:yellow;
+      padding: 5px 0;
+      background-color: #1890ff;
+      border-radius: 5px 5px 0 0;
+    }
+    .content{
+      padding: 10px 10px;
+      border-bottom: 1px solid #3e3d3d;
+      display: flex;
+      align-items: center;
+    }
+    .content:nth-child(odd){
+      background-color: #1c2937;
+    }
+    .content:nth-child(even){
+      background-color: #1b3548;
+    }
+    .content:last-child{
+      border: none;
+    }
+  }
+}

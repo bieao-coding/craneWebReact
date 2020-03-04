@@ -1,0 +1,16 @@
+export default{
+  'app.user.loginName':'登录名',
+  'app.user.realName':'真实姓名',
+  'app.user.roleName':'角色名称',
+  'app.user.loginCount':'登录次数',
+  'app.user.lastLoginTime':'最近登录时间',
+  'app.user.sure-reset':'确认重置密码？',
+  'app.user.workCompanyTree':'施工单位资源',
+  'app.user.buildCompanyTree':'建设单位资源',
+  'app.user.supervisionCompanyTree':'监理单位资源',
+  'app.user.operators':'塔司',
+  'app.user.nvr':'NVR',
+  'app.user.antiDev':'防碰撞',
+  'app.user.videoDev':'视频',
+  'app.user.setResources':'分配资源',
+}

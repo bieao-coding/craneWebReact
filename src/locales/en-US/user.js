@@ -1,0 +1,16 @@
+export default{
+  'app.user.loginName':'Login Name',
+  'app.user.realName':'Real Name',
+  'app.user.roleName':'Role Name',
+  'app.user.loginCount':'Login Times',
+  'app.user.lastLoginTime':'Recent Login Time',
+  'app.user.sure-reset':'Determine the reset password?',
+  'app.user.workCompanyTree':'WorkCompany Resources',
+  'app.user.buildCompanyTree':'BuildCompany Resources',
+  'app.user.supervisionCompanyTree':'SupervisionCompany Resources',
+  'app.user.operators':'Operators',
+  'app.user.nvr':'NVR',
+  'app.user.antiDev':'Anti-Collision Equipment',
+  'app.user.videoDev':'Video Surveillance Equipment',
+  'app.user.setResources':'Assign Resources',
+}

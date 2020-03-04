@@ -1,0 +1,57 @@
+@fontSize16:16px;
+@import '~antd/lib/style/themes/default.less';
+.content{
+  width:100%;
+  .cardView {
+    padding: 10px;
+    background-color: #191919;
+    .cardViewTitle{
+      font-size: @fontSize16;
+    }
+    .picture{
+      font-size: @fontSize16;
+    }
+    .viewNumber{
+      font-size: 20px;
+    }
+  }
+  .alarmView{
+    padding: 10px;
+    background-color: #191919;
+    margin-top: 10px;
+    .title{
+      transition: all .3s;
+      text-align: center;
+      font-size: @fontSize16;
+    }
+    .typeView{
+      margin-top: 5px;
+      height: 5px;
+      transition: all .3s;
+    }
+  }
+  .normal{
+    .typeView{
+      background-color: @green-6;
+    }
+  }
+  .warning{
+    .typeView{
+      background-color: @yellow-6;
+    }
+    color:@yellow-6;
+  }
+  .alarm{
+    .typeView{
+      background-color: @orange-6;
+    }
+    color:@orange-6;
+  }
+  .peccancy{
+    .typeView{
+      background-color: @red-6;
+    }
+    color:@red-6;
+  }
+}
+

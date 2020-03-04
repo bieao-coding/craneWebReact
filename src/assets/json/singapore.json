@@ -1,0 +1,270 @@
+[
+	{
+		"value": "Singapore",
+		"label": "Singapore",
+		"children": [
+			{
+				"value": "Central Region",
+				"label": "Central Region",
+				"children": [
+					{
+						"value": "Bishan",
+						"label": "Bishan"
+					},
+					{
+						"value": "Bukit Merah",
+						"label": "Bukit Merah"
+					},
+					{
+						"value": "Bukit Timah",
+						"label": "Bukit Timah"
+					},
+					{
+						"value": "Novena",
+						"label": "Novena"
+					},
+					{
+						"value": "Potong Pasir",
+						"label": "Potong Pasir"
+					},
+					{
+						"value": "Queenstown",
+						"label": "Queenstown"
+					},
+					{
+						"value": "Tanglin",
+						"label": "Tanglin"
+					},
+					{
+						"value": "Tiong Bahru",
+						"label": "Tiong Bahru"
+					},
+					{
+						"value": "Toa Payoh ",
+						"label": "Toa Payoh "
+					},
+					{
+						"value": "Southern Islands",
+						"label": "Southern Islands"
+					}
+				]
+			},
+			{
+				"value": "East Region",
+				"label": "East Region",
+				"children": [
+					{
+						"value": "Bedok",
+						"label": "Bedok"
+					},
+					{
+						"value": "Changi",
+						"label": "Changi"
+					},
+					{
+						"value": "Changi Bay",
+						"label": "Changi Bay"
+					},
+					{
+						"value": "Changi East",
+						"label": "Changi East"
+					},
+					{
+						"value": "Changi Village",
+						"label": "Changi Village"
+					},
+					{
+						"value": "Geylang",
+						"label": "Geylang"
+					},
+					{
+						"value": "Kallang",
+						"label": "Kallang"
+					},
+					{
+						"value": "Kallang Bahru",
+						"label": "Kallang Bahru"
+					},
+					{
+						"value": "Katong",
+						"label": "Katong"
+					},
+					{
+						"value": "Marine Parade",
+						"label": "Marine Parade"
+					},
+					{
+						"value": "Paya Lebar",
+						"label": "Paya Lebar"
+					},
+					{
+						"value": "Pasir Ris",
+						"label": "Pasir Ris"
+					},
+					{
+						"value": "Siglap",
+						"label": "Siglap"
+					},
+					{
+						"value": "Tampines",
+						"label": "Tampines"
+					},
+					{
+						"value": "Tampines North",
+						"label": "Tampines North"
+					},
+					{
+						"value": "Ubi",
+						"label": "Ubi"
+					}
+				]
+			},
+			{
+				"value": "North Region",
+				"label": "North Region",
+				"children": [
+					{
+						"value": "Central Water Catchment",
+						"label": "Central Water Catchment"
+					},
+					{
+						"value": "Lim Chu Kang",
+						"label": "Lim Chu Kang"
+					},
+					{
+						"value": "Mandai",
+						"label": "Mandai"
+					},
+					{
+						"value": "Sembawang",
+						"label": "Sembawang"
+					},
+					{
+						"value": "Simpang",
+						"label": "Simpang"
+					},
+					{
+						"value": "Sungei Kadut",
+						"label": "Sungei Kadut"
+					},
+					{
+						"value": "Woodlands",
+						"label": "Woodlands"
+					},
+					{
+						"value": "Yishun",
+						"label": "Yishun"
+					}
+				]
+			},
+			{
+				"value": "North-East Region",
+				"label": "North-East Region",
+				"children": [
+					{
+						"value": "Ang Mo Kio",
+						"label": "Ang Mo Kio"
+					},
+					{
+						"value": "Hougang",
+						"label": "Hougang"
+					},
+					{
+						"value": "North-eastern Islands",
+						"label": "North-eastern Islands"
+					},
+					{
+						"value": "Punggol",
+						"label": "Punggol"
+					},
+					{
+						"value": "Seletar",
+						"label": "Seletar"
+					},
+					{
+						"value": "Sengkang",
+						"label": "Sengkang"
+					},
+					{
+						"value": "Senoko",
+						"label": "Senoko"
+					},
+					{
+						"value": "Serangoon",
+						"label": "Serangoon"
+					},
+					{
+						"value": "Serangoon Gardens",
+						"label": "Serangoon Gardens"
+					},
+					{
+						"value": "Serangoon North",
+						"label": "Serangoon North"
+					}
+				]
+			},
+			{
+				"value": "West Region",
+				"label": "West Region",
+				"children": [
+					{
+						"value": "Bukit Batok",
+						"label": "Bukit Batok"
+					},
+					{
+						"value": "Bukit Panjang",
+						"label": "Bukit Panjang"
+					},
+					{
+						"value": "Boon Lay",
+						"label": "Boon Lay"
+					},
+					{
+						"value": "Bulim",
+						"label": "Bulim"
+					},
+					{
+						"value": "Choa Chu Kang",
+						"label": "Choa Chu Kang"
+					},
+					{
+						"value": "Clementi",
+						"label": "Clementi"
+					},
+					{
+						"value": "Joo Koon",
+						"label": "Joo Koon"
+					},
+					{
+						"value": "Jurong East",
+						"label": "Jurong East"
+					},
+					{
+						"value": "Jurong West",
+						"label": "Jurong West"
+					},
+					{
+						"value": "Tengah",
+						"label": "Tengah"
+					},
+					{
+						"value": "Tuas",
+						"label": "Tuas"
+					},
+					{
+						"value": "Tuas South",
+						"label": "Tuas South"
+					},
+					{
+						"value": "Western Islands",
+						"label": "Western Islands"
+					},
+					{
+						"value": "Western Water Catchment",
+						"label": "Western Water Catchment"
+					}
+				]
+			}
+		]
+	}
+]

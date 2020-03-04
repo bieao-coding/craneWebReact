@@ -1,0 +1,23 @@
+export default {
+  'app.contact.search':'联系人、电话号码',
+  'app.contact.contactName':'姓名',
+  'app.contact.contactMobile':'手机号码',
+  'app.contact.contactEmail':'邮件',
+  'app.contact.contactTitle':'职务',
+  'app.contact.contactOrganization':'所属单位',
+  'app.contact.isEnableSms':'短信',
+  'app.contact.isEnableEmail':'邮件',
+  'app.contact.isEnableMoment':'力和力矩',
+  'app.contact.isEnableAntiCollision':'防碰撞',
+  'app.contact.isEnableOutOfZone':'限制区',
+  'app.contact.isEnableSensor':'传感器',
+  'app.contact.isEnableTrolley':'幅度',
+  'app.contact.isEnableHeight':'高度',
+  'app.contact.isEnableBypass':'ByPass',
+  'app.contact.isEnablePower':'电源',
+  'app.contact.isEnableWind':'风速',
+  'app.contact.isEnableMaintenance':'维护',
+  'app.contact.isEnableTampered':'机箱',
+  'app.contact.isEnableTurningAngle':'回转限制区',
+  'app.contact.welcomeSms':'是否发送欢迎短信？'
+}

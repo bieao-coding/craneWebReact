@@ -1,0 +1,62 @@
+.sideView {
+  padding: 10px 5px;
+  background-color: #0c0e14;
+  color:rgba(255, 255, 255, 0.65);
+  .paramsView {
+    height: 200px;
+  }
+  .topLeft{
+    display: flex;
+    flex: 3;
+    margin-right: 10px;
+    background-color: #191919;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: nowrap;
+    position: relative;
+    .firstItem{
+      flex: 0 0 100px;
+    }
+    .time{
+      position: absolute;
+      white-space: nowrap;
+      right: 10px;
+    }
+    .lastItem{
+      flex: 0 0 100px;
+      display:flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+  }
+  .topRight{
+    background-color: #191919;
+    .divider{
+      width: 100%;
+      height: 1px;
+      background: -moz-linear-gradient(left, #141e27, #bcc3c3, #141e27);
+      background: -o-linear-gradient(left, #141e27, #bcc3c3, #141e27);
+      background: -webkit-linear-gradient(left, #141e27, #bcc3c3, #141e27);
+    }
+    .deviceInfo{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 10px;
+      span{
+        padding: 5px 0;
+      }
+    }
+  }
+  :global {
+    .ant-select-selection {
+      color:rgba(255, 255, 255, 0.65);
+      background-color: transparent;
+      border-color: rgba(255, 255, 255, 0.65);
+      .ant-select-arrow{
+        color:rgba(255, 255, 255, 0.65);
+      }
+    }
+  }
+}

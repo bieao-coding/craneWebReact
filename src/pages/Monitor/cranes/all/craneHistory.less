@@ -1,0 +1,53 @@
+.craneInfo{
+  padding: 10px;
+  .title{
+    text-align: center;
+    font-size: 16px;
+    color:yellow;
+    padding: 5px 0;
+    background-color: #1890ff;
+    border-radius: 5px 5px 0 0;
+  }
+  .content{
+    padding: 10px;
+    border-bottom: 1px solid #3e3d3d;
+  }
+  .content:nth-child(odd){
+    background-color: #1c2937;
+  }
+  .content:nth-child(even){
+    background-color: #1b3548;
+  }
+  .content:last-child{
+    border: none;
+    display: flex;
+    align-items: center;
+  }
+}
+.chooseTime{
+  padding: 10px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  :global{
+    .ant-input{
+      color:rgba(255, 255, 255, 0.65);
+      background-color: transparent;
+      border: 1px solid rgba(255, 255, 255, 0.65);
+      .ant-calendar-range-picker-separator{
+        color:rgba(255, 255, 255, 0.65);
+      }
+      .ant-calendar-picker-icon{
+        color:rgba(255, 255, 255, 0.65);
+      }
+    }
+    .ant-select-selection {
+      color:rgba(255, 255, 255, 0.65);
+      background-color: transparent;
+      border-color: rgba(255, 255, 255, 0.65);
+      .ant-select-arrow{
+        color:rgba(255, 255, 255, 0.65);
+      }
+    }
+  }
+}

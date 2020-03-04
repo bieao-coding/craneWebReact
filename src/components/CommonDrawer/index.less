@@ -1,0 +1,45 @@
+.commonDrawer{
+  ::-webkit-scrollbar-track-piece{width:0;}
+  ::-webkit-scrollbar{width:0; };
+  .content{
+    height: 100%;
+    width: 130px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    border:1px solid #e8e8e8;
+    overflow: auto;
+    z-index: 2;
+    transition: transform .3s cubic-bezier(.7, .3, .1, 1),box-shadow .3s cubic-bezier(.7, .3, .1, 1),-webkit-transform .3s cubic-bezier(.7, .3, .1, 1),-webkit-box-shadow .3s cubic-bezier(.7, .3, .1, 1);
+    .search{
+      padding:5px 5px 0 5px;
+    }
+    ul{
+      margin: 0;
+      list-style: none;
+      padding:0;
+      li{
+        padding: 5px 10px;
+        border-bottom:1px dashed #e8e8e8;
+        -moz-user-select:none;
+        -ms-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      };
+      li:last-child{
+        border-bottom:none;
+      }
+      li:hover{
+        background-color: #e6f7ff;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+

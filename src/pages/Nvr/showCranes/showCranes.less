@@ -1,0 +1,44 @@
+.expandTable{
+  width: 100%;
+  table{
+    tr:nth-child(4n - 3){
+      td:nth-child(2){
+        border: none !important;
+      }
+      td:nth-child(3){
+        border: none !important;
+      }
+      td:nth-child(4){
+        border: none !important;
+      }
+    }
+    tr:nth-child(4n - 2){
+      td:nth-child(1){
+        border: none !important;
+      }
+      td:nth-child(2){
+        border: none !important;
+      }
+      td:nth-child(3){
+        border: none !important;
+      }
+    };
+    tr:nth-child(4n - 1){
+      td:nth-child(1){
+        border: none !important;
+      }
+      td:nth-child(2){
+        border: none !important;
+      }
+      td:nth-child(3){
+        border: none !important;
+      }
+    };
+  }
+  :global{
+    .ant-table-tbody > tr:hover:not(.ant-table-expanded-row) > td {
+      background: transparent;
+    }
+  }
+}
+

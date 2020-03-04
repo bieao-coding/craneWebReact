@@ -1,0 +1,58 @@
+.commonGantt{
+  width:100%;
+  border:1px solid #e8e8e8;
+  display: flex;
+  .title{
+    flex: 0 0 145px;
+    border-right:1px solid #e8e8e8;
+    .titleName{
+      height:41px;
+      text-align: center;
+      line-height: 41px;
+    }
+    .sn{
+      border-top:1px solid #e8e8e8;
+      height:30px;
+      text-align: center;
+      line-height: 30px;
+    }
+  }
+  .content{
+    flex:1;
+    overflow: auto;
+    .year{
+      display: flex;
+      div{
+        flex: 0 0 720px;
+        text-align: center;
+        border-right: 1px solid #e8e8e8;
+      }
+    }
+    .hour,.square{
+      display: flex;
+      div{
+        flex: 0 0 30px;
+        height:20px;
+        text-align: center;
+        line-height: 20px;
+        border-top:1px solid #e8e8e8;
+        border-right: 1px solid #e8e8e8;
+      }
+    }
+    .square{
+      div{
+        position: relative;
+        height:30px;
+        .range{
+          position: absolute;
+          height:16px;
+          top:7px;
+          display: block;
+          background-color: #40a9ff;
+          z-index:1;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

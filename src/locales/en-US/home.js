@@ -1,0 +1,18 @@
+export default{
+  'app.home.today-warning':'Today\'s Warning',
+  'app.home.today-alarm':'Today\'s Alarm',
+  'app.home.today-pccancy':'Today\'s Fequency',
+  'app.home.today-online':'Today\'s Online rate',
+  'app.home.Heliocentric-ratio':'Day to day ratio',
+  'app.home.online-total':'Online/Total',
+  'app.home.quantity-ranking':'Quantity Ranking',
+  'app.home.today':'Today',
+  'app.home.seven-days':'7 days',
+  'app.home.fourteen-days':'14 days',
+  'app.home.thirty-days':'30 days',
+  'app.home.real-time-warning':'Real-time Warning',
+  'app.home.real-time-alarm':'Real-time Alarm',
+  'app.home.real-time-peccancy':'Real-time Illegal',
+  'app.home.waring-type':'Category',
+  'app.home.waring-description':'Specific Contents',
+}
