@@ -252,8 +252,9 @@ class TowerGroup extends Component {
     const nextState = nextProps.location.state;
     const currentState = this.props.location.state;
     if(currentState && nextState.id !== currentState.id){
-      this.setState({id:nextState.id},()=>{
-         sendCmd({cmd:'CraneStructureExt',"vo":{},craneId:this.state.id,rwStatus:'L'},this.showData)
+      this.setState({id:nextState.id,currentState:[],towerGroup:[]},()=>{
+        sessionStorage.removeItem('towerGroup');
+        sendCmd({cmd:'CraneStructureExt',"vo":{},craneId:this.state.id,rwStatus:'L'},this.showData)
       })
     }
   }
