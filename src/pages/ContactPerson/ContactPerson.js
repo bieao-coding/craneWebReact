@@ -46,7 +46,7 @@ class ContactPerson extends React.Component {
         <Fragment>
           {this.props.auth.contactPerson_edit ? (
             <Fragment>
-              <a href = 'javascript:void(0)' className='m-r-10' onClick={() =>  this.addAndEdit(1,record)}>
+              <a className='m-r-10' onClick={() =>  this.addAndEdit(1,record)}>
                 <FormattedMessage id='app.common.edit' />
               </a>
             </Fragment>
@@ -59,7 +59,7 @@ class ContactPerson extends React.Component {
                 okText={<FormattedMessage id='app.common.sure'/>}
                 cancelText={<FormattedMessage id='app.common.cancel'/>}
               >
-                <a href = 'javascript:void(0)'>
+                <a>
                   <FormattedMessage id='app.common.delete'/>
                 </a>
               </Popconfirm>

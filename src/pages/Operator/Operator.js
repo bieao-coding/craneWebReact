@@ -50,14 +50,14 @@ class Operator extends Component {
         <Fragment>
           {this.props.auth.operator_edit ? (
             <Fragment>
-              <a href = 'javascript:void(0)' className='m-r-10' onClick={() =>  this.addAndEdit(1,record)}>
+              <a className='m-r-10' onClick={() =>  this.addAndEdit(1,record)}>
                 <FormattedMessage id='app.common.edit' />
               </a>
             </Fragment>
           ):(<Fragment></Fragment>)}
           {this.props.auth.operator_feature ? (
             <Fragment>
-              <a href = 'javascript:void(0)' className='m-r-10' onClick={() => this.feature(record)}>
+              <a className='m-r-10' onClick={() => this.feature(record)}>
                 <FormattedMessage id='app.common.feature' />
               </a>
             </Fragment>

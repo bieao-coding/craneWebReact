@@ -28,6 +28,7 @@ startServer.stdout.on('data', data => {
   if (!once && data.toString().indexOf('Compiled successfully') >= 0) {
     // eslint-disable-next-line
     once = true;
+    // eslint-disable-next-line no-console
     console.log('Development server is started, ready to run tests.');
     const testCmd = spawn(
       /^win/.test(process.platform) ? 'npm.cmd' : 'npm',

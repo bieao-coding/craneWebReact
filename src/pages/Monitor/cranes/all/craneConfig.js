@@ -162,7 +162,6 @@ class CraneConfig extends Component {
                   <EditableContext.Consumer>
                     {form => (
                       <a
-                        href="javascript:void(0)"
                         onClick={() => this.save(form, record.key)}
                         style={{ marginRight: 8 }}
                       >
@@ -291,7 +290,7 @@ class CraneConfig extends Component {
       <div className = 'edit-table'>
         <Form layout="inline">
           <Row className = 'm-b-10'>
-            <a href='javascript:void(0)' onClick={this.heightConfig}><FormattedMessage id='app.monitor.highConfig' />></a>
+            <a onClick={this.heightConfig}><FormattedMessage id='app.monitor.highConfig' />></a>
           </Row>
         </Form>
         <Table

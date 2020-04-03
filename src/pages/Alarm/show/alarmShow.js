@@ -76,7 +76,7 @@ class AlarmShow extends Component{
       width:100,
       render: (text, record) => (
         <Fragment>
-          <a href='javascript:void(0)' onClick={() => this.clickNumber({alarmCode:'total',date:record.date,id:record.id})}>{record.total}</a>
+          <a  onClick={() => this.clickNumber({alarmCode:'total',date:record.date,id:record.id})}>{record.total}</a>
         </Fragment>
       ),
 
@@ -88,7 +88,7 @@ class AlarmShow extends Component{
       width:100,
       render: (text, record) => (
         <Fragment>
-          <a href='javascript:void(0)' onClick={() => this.clickNumber({alarmCode:'overLoad',date:record.date,id:record.id})}>{record.overLoad}</a>
+          <a onClick={() => this.clickNumber({alarmCode:'overLoad',date:record.date,id:record.id})}>{record.overLoad}</a>
         </Fragment>
       ),
     },
@@ -99,7 +99,7 @@ class AlarmShow extends Component{
       width:100,
       render: (text, record) => (
         <Fragment>
-          <a href='javascript:void(0)' onClick={() => this.clickNumber({alarmCode:'collision',date:record.date,id:record.id})}>{record.collision}</a>
+          <a onClick={() => this.clickNumber({alarmCode:'collision',date:record.date,id:record.id})}>{record.collision}</a>
         </Fragment>
       ),
     },
@@ -110,7 +110,7 @@ class AlarmShow extends Component{
       width:100,
       render: (text, record) => (
         <Fragment>
-          <a href='javascript:void(0)' onClick={() => this.clickNumber({alarmCode:'limit',date:record.date,id:record.id})}>{record.limit}</a>
+          <a onClick={() => this.clickNumber({alarmCode:'limit',date:record.date,id:record.id})}>{record.limit}</a>
         </Fragment>
       ),
     },
@@ -121,7 +121,7 @@ class AlarmShow extends Component{
       width:100,
       render: (text, record) => (
         <Fragment>
-          <a href='javascript:void(0)' onClick={() => this.clickNumber({alarmCode:'area',date:record.date,id:record.id})}>{record.area}</a>
+          <a onClick={() => this.clickNumber({alarmCode:'area',date:record.date,id:record.id})}>{record.area}</a>
         </Fragment>
       ),
     },
@@ -132,7 +132,7 @@ class AlarmShow extends Component{
       width:100,
       render: (text, record) => (
         <Fragment>
-          <a href='javascript:void(0)' onClick={() => this.clickNumber({alarmCode:'windSpeed',date:record.date,id:record.id})}>{record.windSpeed}</a>
+          <a onClick={() => this.clickNumber({alarmCode:'windSpeed',date:record.date,id:record.id})}>{record.windSpeed}</a>
         </Fragment>
       ),
     },

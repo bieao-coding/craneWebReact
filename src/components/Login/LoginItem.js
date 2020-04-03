@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { Form, Input, Button, Row, Col } from 'antd';
-import omit from 'omit.js';
-import styles from './index.less';
+import { Form, Input} from 'antd';
 import ItemMap from './map';
 import LoginContext from './loginContext';
 
@@ -12,10 +10,6 @@ class WrapFormItem extends Component {
     getCaptchaButtonText: 'captcha',
     getCaptchaSecondText: 'second',
   };
-
-  constructor(props) {
-    super(props)
-  }
 
   componentDidMount() {
     const { updateActive, name } = this.props;

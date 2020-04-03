@@ -54,7 +54,7 @@ class VideoList extends Component {
         <Fragment>
           {this.props.auth.video_record ? (
             <Fragment>
-              <a href = 'javascript:void(0)' className='m-r-10'  onClick={() =>  this.bindRecord(record)}>
+              <a className='m-r-10'  onClick={() =>  this.bindRecord(record)}>
                 <FormattedMessage id='app.common.bindRecord' />
               </a>
             </Fragment>

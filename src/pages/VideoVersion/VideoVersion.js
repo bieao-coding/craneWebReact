@@ -62,7 +62,7 @@ class VideoVersion extends Component {
         <Fragment>
           {this.props.auth.video_versions_delete ? (
             <Popconfirm title={<FormattedMessage id='app.common.delete-sure' />} onConfirm={() => this.delete(record)} okText={formatMessage({id:'app.common.sure'})} cancelText={formatMessage({id:'app.common.cancel'})}>
-              <a href = 'javascript:void(0)'><FormattedMessage id='app.common.delete' /></a>
+              <a><FormattedMessage id='app.common.delete' /></a>
             </Popconfirm>
           ):(<Fragment></Fragment>)}
         </Fragment>

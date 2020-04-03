@@ -308,7 +308,7 @@ class BindContact extends React.Component {
         <Fragment>
           {this.props.auth.crane_bindContactDelete ? (
             <Fragment>
-              <a href = 'javascript:void(0)'  onClick={() => this.delete(record)}>
+              <a  onClick={() => this.delete(record)}>
                 <FormattedMessage id='app.common.delete' />
               </a>
             </Fragment>

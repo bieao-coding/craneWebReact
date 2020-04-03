@@ -225,12 +225,12 @@ class TowerGroup extends Component {
       title: formatMessage({id:'app.common.options'}),
       render: (text, record) => (
         <Fragment>
-          <a href = 'javascript:void(0)' onClick={() => this.editCrane(record)}>
+          <a onClick={() => this.editCrane(record)}>
             <FormattedMessage id='app.common.edit' />
           </a>
           <Divider type="vertical" />
           <Popconfirm title={formatMessage({id:"app.common.delete-sure"})} onConfirm={() => this.deleteCrane(record)} okText={formatMessage({id:'app.common.sure'})} cancelText={formatMessage({id:'app.common.cancel'})}>
-            <a href = 'javascript:void(0)'>
+            <a>
               <FormattedMessage id='app.common.delete' />
             </a>
           </Popconfirm>

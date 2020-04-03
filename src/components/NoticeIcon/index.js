@@ -8,6 +8,7 @@ import styles from './index.less';
 const { TabPane } = Tabs;
 
 export default class NoticeIcon extends PureComponent {
+  // eslint-disable-next-line react/sort-comp
   static Tab = TabPane;
 
   static defaultProps = {

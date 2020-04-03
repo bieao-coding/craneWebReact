@@ -100,7 +100,7 @@ class AnalyseOnline extends React.Component {
       width:100,
       render: (text, record) => (
         <Fragment>
-          <a href = 'javascript:void(0)' onClick={() => this.showOrgData(record)}>
+          <a onClick={() => this.showOrgData(record)}>
             <FormattedMessage id='app.common.details' />
           </a>
         </Fragment>
