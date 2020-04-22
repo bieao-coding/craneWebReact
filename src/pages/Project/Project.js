@@ -76,12 +76,12 @@ class Project extends Component {
       render: (text, record) => (
         <Fragment>
           {this.props.auth.project_edit ? (
-            <a href = 'javascript:void(0)' className='m-r-10' onClick={() => this.addAndEdit(1,record)}>
+            <a className='m-r-10' onClick={() => this.addAndEdit(1,record)}>
               <FormattedMessage id='app.common.edit' />
             </a>
           ):(<Fragment></Fragment>)}
           {this.props.auth.project_ext ? (
-            <a href = 'javascript:void(0)' onClick={() => this.addAndEdit(2,record)}>
+            <a onClick={() => this.addAndEdit(2,record)}>
               <FormattedMessage id='app.common.ext' />
             </a>
           ):(<Fragment></Fragment>)}

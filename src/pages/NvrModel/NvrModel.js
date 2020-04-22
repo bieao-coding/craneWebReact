@@ -51,7 +51,7 @@ class NvrModel extends Component {
         <Fragment>
           {this.props.auth.nvrModel_edit ? (
             <Fragment>
-              <a href = 'javascript:void(0)' className='m-r-10' onClick={() =>  this.addAndEdit(1,record)}>
+              <a className='m-r-10' onClick={() =>  this.addAndEdit(1,record)}>
                 <FormattedMessage id='app.common.edit' />
               </a>
             </Fragment>

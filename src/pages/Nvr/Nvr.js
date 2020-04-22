@@ -5,7 +5,6 @@ import {Divider,Popconfirm,message,Form,Card,Row,Col,Button,Input,Tag} from 'ant
 import { formatMessage, FormattedMessage } from 'umi/locale';
 import CommonTable from '@/components/CommonTable';
 import router from "umi/router";
-import info from '@/defaultInfo';
 @connect(({ nvr,user, loading }) => ({
   nvr,
   auth:user.authorization,
@@ -64,21 +63,21 @@ class Nvr extends Component {
         <Fragment>
           {this.props.auth.nvr_edit ? (
             <Fragment>
-              <a href = 'javascript:void(0)' className='m-r-10' onClick={() =>  this.addAndEdit(1,record)}>
+              <a className='m-r-10' onClick={() =>  this.addAndEdit(1,record)}>
                 <FormattedMessage id='app.common.edit' />
               </a>
             </Fragment>
           ):(<Fragment></Fragment>)}
           {this.props.auth.nvr_cancelPassword ? (
             <Fragment>
-              <a href = 'javascript:void(0)' className='m-r-10' onClick={() =>  this.cancelPassword(record)}>
+              <a className='m-r-10' onClick={() =>  this.cancelPassword(record)}>
                 <FormattedMessage id='app.common.cancelPassword' />
               </a>
             </Fragment>
           ):(<Fragment></Fragment>)}
           {this.props.auth.nvr_show ? (
             <Fragment>
-              <a href = 'javascript:void(0)'  onClick={() =>  this.seeBind(record)}>
+              <a  onClick={() =>  this.seeBind(record)}>
                 <FormattedMessage id='app.common.bind' />
               </a>
             </Fragment>

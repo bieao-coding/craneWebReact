@@ -41,14 +41,14 @@ class CraneManufacturer extends Component {
         <Fragment>
           {this.props.auth.model ? (
             <Fragment>
-              <a href = 'javascript:void(0)' className='m-r-10' onClick={() => this.modelList(record)}>
+              <a className='m-r-10' onClick={() => this.modelList(record)}>
                 <FormattedMessage id = 'app.common.modelList' />
               </a>
             </Fragment>
           ):(<Fragment></Fragment>)}
           {this.props.auth.craneModel_edit ? (
             <Fragment>
-              <a href = 'javascript:void(0)' onClick={() =>  this.addAndEdit(1,record)}>
+              <a onClick={() =>  this.addAndEdit(1,record)}>
                 <FormattedMessage id = 'app.common.edit' />
               </a>
             </Fragment>

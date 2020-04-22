@@ -39,14 +39,14 @@ class Roles extends React.Component {
         <Fragment>
           {this.props.auth.role_edit && record.roleId !== 1 ? (
             <Fragment>
-              <a href = 'javascript:void(0)' className='m-r-10' onClick={() =>  this.addAndEdit(1,record)}>
+              <a className='m-r-10' onClick={() =>  this.addAndEdit(1,record)}>
                 <FormattedMessage id='app.common.edit' />
               </a>
             </Fragment>
           ):(<Fragment></Fragment>)}
           {(record.roleId === 1 ? (this.props.auth.role_auth && this.props.currentUser.userId === 1) : this.props.auth.role_auth) ? (
             <Fragment>
-              <a href = 'javascript:void(0)' className='m-r-10'  onClick={() =>  this.setAuth(record)}>
+              <a className='m-r-10'  onClick={() =>  this.setAuth(record)}>
                 <FormattedMessage id='app.role.setRole' />
               </a>
             </Fragment>

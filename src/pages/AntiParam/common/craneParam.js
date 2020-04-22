@@ -64,7 +64,7 @@ class CraneParam extends Component {
       render: (value, record) => (
         <Fragment>
           {this.props.auth.param ? (
-            <a href = 'javascript:void(0)' onClick={() => this.setParams(record)}>
+            <a onClick={() => this.setParams(record)}>
               <FormattedMessage id='app.common.set' />
             </a>
           ):(<Fragment></Fragment>)}

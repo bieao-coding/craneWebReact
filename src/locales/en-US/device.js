@@ -130,6 +130,7 @@ export default {
   'app.device.systemSwitch':'System Functions Select',
   'app.device.edit-crane':'Edit TC',
   'app.device.abort-crane':'Abort TC',
+  'app.device.abort-crane-note':'Note: The relevant tower crane data is the data saved on the device',
   'app.device.add-crane':'Add Crane',
   'app.device.either-number':'{min} to {max} effective figures except {useNum}',
   'app.device.open-status':'Switch Status',

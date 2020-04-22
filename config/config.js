@@ -81,10 +81,10 @@ export default {
       target: 'http://118.24.68.117:18065'
     },
     '/restful': {
-      target: 'http://118.24.68.117:18066'
+      target: 'http://isafe360.com'
     },
     '/glodon': {
-      target: 'http://118.24.68.117:18000'
+      target: 'http://isafe360.com:18000'
     },
   },
   // 铁总测试

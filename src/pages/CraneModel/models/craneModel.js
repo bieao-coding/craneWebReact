@@ -1,6 +1,6 @@
 /*eslint-disable*/
 import { getManufacturers,getManufacturerById,addManufacturer,editManufacturer,
-  getModels,getModelById,addModel,editModel} from '../service/CraneModelService';
+  getModels,getModelById,addModel,editModel} from '../service/craneModelService';
 export  default{
   namespace: 'craneModel',
 

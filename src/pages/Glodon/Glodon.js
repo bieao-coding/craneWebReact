@@ -4,7 +4,6 @@ import { connect } from 'dva';
 import {Form,Card,Row,Col,Button,Input,Table} from 'antd';
 import CommonTable from '@/components/CommonTable';
 import { formatMessage, FormattedMessage } from 'umi/locale';
-
 import router from 'umi/router';
 @connect(({ glodon,user, loading }) => ({
   glodon,
@@ -29,15 +28,16 @@ class Glodon extends Component {
     {
       title: 'Token',
       dataIndex: 'token',
+      width:700
     },
     {
       title: formatMessage({id:'app.common.options'}),
-      width:100,
+      width:50,
       render: (text, record) => (
         <Fragment>
           {this.props.auth.glodon_edit ? (
             <Fragment>
-              <a href = 'javascript:void(0)' className='m-r-10' onClick={() => this.edit(record)}>
+              <a className='m-r-10' onClick={() => this.edit(record)}>
                 <FormattedMessage id='app.common.edit' />
               </a>
             </Fragment>

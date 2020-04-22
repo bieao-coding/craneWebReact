@@ -225,12 +225,12 @@ class TowerGroup extends Component {
       title: formatMessage({id:'app.common.options'}),
       render: (text, record) => (
         <Fragment>
-          <a href = 'javascript:void(0)' onClick={() => this.editCrane(record)}>
+          <a onClick={() => this.editCrane(record)}>
             <FormattedMessage id='app.common.edit' />
           </a>
           <Divider type="vertical" />
           <Popconfirm title={formatMessage({id:"app.common.delete-sure"})} onConfirm={() => this.deleteCrane(record)} okText={formatMessage({id:'app.common.sure'})} cancelText={formatMessage({id:'app.common.cancel'})}>
-            <a href = 'javascript:void(0)'>
+            <a>
               <FormattedMessage id='app.common.delete' />
             </a>
           </Popconfirm>
@@ -403,7 +403,10 @@ class TowerGroup extends Component {
           <Button type="primary" icon="edit" className = 'm-t-10 m-b-20' onClick={this.editCurrentCrane} ><FormattedMessage id='app.device.edit-crane' /></Button>
         </Row>
         <Row>
-          <Row className={styles.title}><FormattedMessage id='app.device.abort-crane' /></Row>
+          <Row className={styles.title}>
+            <span class='m-r-10'><FormattedMessage id='app.device.abort-crane' /></span>
+            <span class={styles.note}><FormattedMessage id='app.device.abort-crane-note' /></span>
+          </Row>
           <Row>
             <Table
               size = 'middle'

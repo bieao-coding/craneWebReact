@@ -146,7 +146,7 @@ class CommonCompanyTree extends PureComponent{
       return <TreeNode key={item.orgId} title={title} icon={<i className={['iconfont',this.selectIcon(item.businessLevel)].join(' ')}/>}/>;
     });
     return (
-      <Col id= 'search-tree' style={{minHeight:`${this.minHeight}px`}} className={[styles.searchTree,click ? styles.flex0 : styles.flex256].join(' ')}>
+      <Col id= 'search-tree' style={{minHeight:`${this.minHeight}px`}} className={[styles.searchTree,click ? styles.flex0 : ''].join(' ')}>
         <Row className='m-r-10'>
           <Select value={companySelect} style={{ width: '100%'}} className='m-b-10' placeholder="请选择单位" onChange={this.changeSelect}>
             {newOptions}
@@ -164,7 +164,7 @@ class CommonCompanyTree extends PureComponent{
         >
           {loop(data)}
         </Tree>
-        <span id= 'turn-left-right' style={{top:`${this.windowHeight/2}px`}} className = {[styles.turnLeftRight,hover ? styles.hoverColor : '',click ? styles.left0 : ''].join(' ')}>
+        <span id= 'turn-left-right' style={{top:`${this.windowHeight/2}px`}} className = {[styles.turnLeftRight,hover ? styles.hoverColor : ''].join(' ')}>
           <i className = {[styles.fontSize12,'iconfont icon-turn',click ? styles.rotate180 : ''].join(' ')}/>
         </span>
       </Col>

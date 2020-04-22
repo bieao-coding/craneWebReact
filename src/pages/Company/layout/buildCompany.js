@@ -52,14 +52,14 @@ class BuildCompany extends Component {
         <Fragment>
           {this.props.auth.buildCompany_edit ? (
             <Fragment>
-              <a href = 'javascript:void(0)' className='m-r-10' onClick={() => this.addAndEdit(2,record)}>
+              <a className='m-r-10' onClick={() => this.addAndEdit(2,record)}>
                 <FormattedMessage id='app.common.edit' />
               </a>
             </Fragment>
           ):(<Fragment></Fragment>)}
           {this.props.auth.buildCompany_addNext ? (
             <Fragment>
-              <a href = 'javascript:void(0)' disabled={record.businessLevel >= 5} onClick={() => this.addAndEdit(1,record)}>
+              <a disabled={record.businessLevel >= 5} onClick={() => this.addAndEdit(1,record)}>
                 <FormattedMessage id='app.common.addNext' />
               </a>
             </Fragment>

@@ -116,13 +116,14 @@ class Crane extends Component {
     },
     {
       title: formatMessage({id:'app.common.options'}),
+      width:350,
       render: (value, record, index) => {
         const obj = {
           children:
             <Fragment>
               {this.props.auth.crane_edit ? (
                 <Fragment>
-                  <a href = 'javascript:void(0)' className='m-r-10' onClick={() => this.addAndEdit(1,record)}>
+                  <a className='m-r-10' onClick={() => this.addAndEdit(1,record)}>
                     <FormattedMessage id='app.common.edit' />
                   </a>
                 </Fragment>
@@ -130,7 +131,7 @@ class Crane extends Component {
               {this.props.auth.crane_operator ? (
                 <Fragment>
                 <span className={[styles.showCount,'m-r-10'].join(' ')}>
-                  <a href = 'javascript:void(0)' onClick={() => this.bindOperator(record)}>
+                  <a onClick={() => this.bindOperator(record)}>
                     <FormattedMessage id='app.crane.bindOperator' />
                   </a>
                   <span className={styles.count}>{!!record.workerCount ? record.workerCount : 0}</span>
@@ -139,34 +140,34 @@ class Crane extends Component {
               ):(<Fragment></Fragment>)}
               {this.props.auth.crane_cardRecord ? (
                 <Fragment>
-                  <a href = 'javascript:void(0)' className='m-r-10' onClick={() => this.getRecord(record)}>
+                  <a className='m-r-10' onClick={() => this.getRecord(record)}>
                     <FormattedMessage id='app.crane.cardRecord' />
                   </a>
                 </Fragment>
               ):(<Fragment></Fragment>)}
               {this.props.auth.crane_nvr ? (
                 <Fragment>
-                  <a href = 'javascript:void(0)' className='m-r-10' onClick={() => this.bindNvr(record)}>
+                  <a className='m-r-10' onClick={() => this.bindNvr(record)}>
                     <FormattedMessage id='app.crane.bindNVR' />
                   </a>
                 </Fragment>
               ):(<Fragment></Fragment>)}
               {this.props.auth.crane_bindRecord ? (
                 <Fragment>
-                  <a href = 'javascript:void(0)' className='m-r-10' onClick={() => this.bindRecord(record)}>
+                  <a className='m-r-10' onClick={() => this.bindRecord(record)}>
                     <FormattedMessage id='app.common.bindRecord' />
                   </a>
                 </Fragment>
               ):(<Fragment></Fragment>)}
               {this.props.auth.crane_bindContact ? (
                 <Fragment>
-                  <a href = 'javascript:void(0)' className='m-r-10' onClick={() => this.bindContact(record)}>
+                  <a className='m-r-10' onClick={() => this.bindContact(record)}>
                     <FormattedMessage id='app.crane.bindContact' />
                   </a>
                 </Fragment>
               ):(<Fragment></Fragment>)}
               {this.props.auth.crane_ext ? (
-                <a href = 'javascript:void(0)' onClick={() => this.addAndEdit(2,record)}>
+                <a onClick={() => this.addAndEdit(2,record)}>
                   <FormattedMessage id='app.common.ext' />
                 </a>
               ):(<Fragment></Fragment>)}

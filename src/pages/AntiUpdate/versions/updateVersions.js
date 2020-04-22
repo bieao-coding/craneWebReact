@@ -59,7 +59,7 @@ class UpdateVersions extends Component {
       width:100,
       render: (text, record) => (
         <Fragment>
-          <a href='javascript:void(0)' onClick={() => this.choose(record)}>
+          <a onClick={() => this.choose(record)}>
             <FormattedMessage id='app.device.choose' />
           </a>
         </Fragment>

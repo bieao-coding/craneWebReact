@@ -792,7 +792,7 @@ export default [
               { path: '/statistics/workTime', redirect: '/statistics/workTime/workTimeLayout' },
               {
                 path:'/statistics/workTime/workTimeLayout',
-                component: './WorkTime/workTimeLayout',
+                component: './WorkTime/WorkTimeLayout',
                 authority: ['workTime'],
                 routes:[
                   { path: '/statistics/workTime/workTimeLayout', redirect: '/statistics/workTime/workTimeLayout/show' },

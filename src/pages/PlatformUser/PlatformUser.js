@@ -52,6 +52,7 @@ class PlatformUser extends Component {
     {
       title: formatMessage({id:'app.common.status'}),
       dataIndex: 'status',
+      align:'center',
       render: (text, record) => (
         <Fragment>
           <Tag color={!record.status ? 'green' : 'red'}>{!record.status ? formatMessage({id:'app.common.enable'}) : formatMessage({id:'app.common.disable'})}</Tag>
@@ -60,18 +61,19 @@ class PlatformUser extends Component {
     },
     {
       title: formatMessage({id:'app.common.options'}),
+      width:300,
       render: (text, record) => (
         <Fragment>
           {this.props.auth.platformUser_edit ? (
             <Fragment>
-              <a href = 'javascript:void(0)' className='m-r-10' onClick={() =>  this.addAndEdit(1,record)}>
+              <a className='m-r-10' onClick={() =>  this.addAndEdit(1,record)}>
                 <FormattedMessage id='app.common.edit'/>
               </a>
             </Fragment>
           ):(<Fragment></Fragment>)}
           {this.props.auth.platformUser_addNext ? (
             <Fragment>
-              <a href = 'javascript:void(0)' className='m-r-10' onClick={() => this.addAndEdit(2,record)}>
+              <a className='m-r-10' onClick={() => this.addAndEdit(2,record)}>
                 <FormattedMessage id='app.common.addNext'/>
               </a>
             </Fragment>
@@ -84,7 +86,7 @@ class PlatformUser extends Component {
                 okText={<FormattedMessage id='app.common.sure'/>}
                 cancelText={<FormattedMessage id='app.common.cancel'/>}
               >
-                <a href = 'javascript:void(0)' className='m-r-10'>
+                <a className='m-r-10'>
                   <FormattedMessage id='app.common.resetPassword'/>
                 </a>
               </Popconfirm>
@@ -92,7 +94,7 @@ class PlatformUser extends Component {
           ):(<Fragment></Fragment>)}
           {this.props.auth.platformUser_setAuth ? (
             <Fragment>
-              <a href = 'javascript:void(0)' className='m-r-10' onClick={() => this.giveData(record)}>
+              <a className='m-r-10' onClick={() => this.giveData(record)}>
                 <FormattedMessage id='app.user.setResources'/>
               </a>
             </Fragment>

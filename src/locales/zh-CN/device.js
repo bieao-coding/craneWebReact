@@ -130,6 +130,7 @@ export default {
   'app.device.systemSwitch':'系统功能选择',
   'app.device.edit-crane':'编辑塔机',
   'app.device.abort-crane':'相关塔机',
+  'app.device.abort-crane-note':'注：相关塔机数据为本设备上保存的数据',
   'app.device.add-crane':'添加塔机',
   'app.device.either-number':'除{useNum}之外{min}~{max}的有效数字',
   'app.device.open-status':'开关状态',
