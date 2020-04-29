@@ -1,5 +1,6 @@
 import React from 'react';
 import { FormattedMessage } from 'umi/locale';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import Link from 'umi/link';
 import PageHeader from '@/components/PageHeader';
 import { connect } from 'dva';

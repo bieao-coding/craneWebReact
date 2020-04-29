@@ -154,4 +154,6 @@ export default {
   'app.common.hour':'时',
   'app.common.min':'分',
   'app.common.sen':'秒',
+  'app.common.chooseOtherProject':'请选择项目',
+  'app.common.choose':'选择',
 }

@@ -1,5 +1,5 @@
 /*eslint-disable*/
-import { getProjects,getProjectById,editProject } from '../service/glodonService';
+import { getProjects,getProjectById,editProject,getOtherProject, otherProject } from '../service/glodonService';
 export  default{
   namespace: 'glodon',
 
@@ -21,6 +21,14 @@ export  default{
     *getEdit({ payload,callback }, { call, put }) {
       const response = yield call(getProjectById, payload);
       if (callback && !!response) callback(response.data);
+    },
+    *getOtherProject({ payload,callback }, { call, put }) {
+      const response = yield call(getOtherProject, payload);
+      if (callback && !!response) callback(response.data);
+    },
+    *otherProject({ payload,callback }, { call }) {
+      const response =  yield call(otherProject, payload);
+      if (callback) callback(response);
     },
     *edit({ payload,callback }, { call }) {
       const response =  yield call(editProject, payload);

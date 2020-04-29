@@ -78,13 +78,13 @@ export default {
   // 本地测试
   proxy: {
     '/restful/v2/sgp': {
-      target: 'http://118.24.68.117:18065'
+      target: 'http://192.168.1.21:18065'
     },
     '/restful': {
-      target: 'http://isafe360.com'
+      target: 'http://192.168.1.21:18066'
     },
     '/glodon': {
-      target: 'http://isafe360.com:18000'
+      target: 'http://192.168.1.21:18000'
     },
   },
   // 铁总测试

@@ -365,58 +365,58 @@ export default [
             ]
           },
           // 塔机型号
-          // {
-          //   path:'/base/craneModel',
-          //   name: 'craneModel',
-          //   hideChildrenInMenu:true,
-          //   authority: ['craneModel'],
-          //   routes:[
-          //     { path: '/base/craneModel', redirect: '/base/craneModel/table'},
-          //     {
-          //       path:'/base/craneModel/table',
-          //       component: './CraneModel/CraneManufacturer',
-          //       authority: ['craneModel'],
-          //     },
-          //     {
-          //       path:'/base/craneModel/add',
-          //       component: './CraneModel/form/manufacturer/manufacturerForm',
-          //       name: 'craneModel_add',
-          //       authority: ['craneModel_add'],
-          //     },
-          //     {
-          //       path:'/base/craneModel/edit',
-          //       component: './CraneModel/form/manufacturer/manufacturerForm',
-          //       name: 'craneModel_edit',
-          //       authority: ['craneModel_edit'],
-          //     },
-          //     {
-          //       path:'/base/craneModel/model',
-          //       name: 'model',
-          //       authority: ['model'],
-          //       routes:[
-          //         { path: '/base/craneModel/model', redirect: '/base/craneModel/model/table'},
-          //         {
-          //           path:'/base/craneModel/model/table',
-          //           component: './CraneModel/CraneModel',
-          //           authority: ['model'],
-          //         },
-          //         {
-          //           path:'/base/craneModel/model/add',
-          //           component: './CraneModel/form/model/modelForm',
-          //           name: 'model_add',
-          //           authority: ['model_add'],
-          //         },
-          //         {
-          //           path:'/base/craneModel/model/edit',
-          //           component: './CraneModel/form/model/modelForm',
-          //           name: 'model_edit',
-          //           authority: ['model_edit'],
-          //         },
-          //       ]
-          //     },
-          //
-          //   ]
-          // },
+          {
+            path:'/base/craneModel',
+            name: 'craneModel',
+            hideChildrenInMenu:true,
+            authority: ['craneModel'],
+            routes:[
+              { path: '/base/craneModel', redirect: '/base/craneModel/table'},
+              {
+                path:'/base/craneModel/table',
+                component: './CraneModel/CraneManufacturer',
+                authority: ['craneModel'],
+              },
+              {
+                path:'/base/craneModel/add',
+                component: './CraneModel/form/manufacturer/manufacturerForm',
+                name: 'craneModel_add',
+                authority: ['craneModel_add'],
+              },
+              {
+                path:'/base/craneModel/edit',
+                component: './CraneModel/form/manufacturer/manufacturerForm',
+                name: 'craneModel_edit',
+                authority: ['craneModel_edit'],
+              },
+              {
+                path:'/base/craneModel/model',
+                name: 'model',
+                authority: ['model'],
+                routes:[
+                  { path: '/base/craneModel/model', redirect: '/base/craneModel/model/table'},
+                  {
+                    path:'/base/craneModel/model/table',
+                    component: './CraneModel/CraneModel',
+                    authority: ['model'],
+                  },
+                  {
+                    path:'/base/craneModel/model/add',
+                    component: './CraneModel/form/model/modelForm',
+                    name: 'model_add',
+                    authority: ['model_add'],
+                  },
+                  {
+                    path:'/base/craneModel/model/edit',
+                    component: './CraneModel/form/model/modelForm',
+                    name: 'model_edit',
+                    authority: ['model_edit'],
+                  },
+                ]
+              },
+
+            ]
+          },
           // NVR型号管理
           {
             path:'/base/nvrModel',
@@ -1146,32 +1146,32 @@ export default [
           }
         ]
       },
-      // {
-      //   path:'/record',
-      //   name: 'record',
-      //   icon: 'tag',
-      //   authority: ['record'],
-      //   routes:[
-      //     {
-      //       path: '/record/onlineRecord',
-      //       name: 'onlineRecord',
-      //       authority: ['onlineRecord'],
-      //       component: './OnlineRecord/OnlineRecord',
-      //     },
-      //     {
-      //       path: '/record/allAntis',
-      //       name: 'allAntis',
-      //       authority: ['allAntis'],
-      //       component: './AllAntis/AllAntis',
-      //     },
-      //     {
-      //       path: '/record/allVideos',
-      //       name: 'allVideos',
-      //       authority: ['allVideos'],
-      //       component: './AllVideos/AllVideos',
-      //     }
-      //   ]
-      // },
+      {
+        path:'/record',
+        name: 'record',
+        icon: 'tag',
+        authority: ['record'],
+        routes:[
+          {
+            path: '/record/onlineRecord',
+            name: 'onlineRecord',
+            authority: ['onlineRecord'],
+            component: './OnlineRecord/OnlineRecord',
+          },
+          {
+            path: '/record/allAntis',
+            name: 'allAntis',
+            authority: ['allAntis'],
+            component: './AllAntis/AllAntis',
+          },
+          {
+            path: '/record/allVideos',
+            name: 'allVideos',
+            authority: ['allVideos'],
+            component: './AllVideos/AllVideos',
+          }
+        ]
+      },
       {
         path:'/foreign',
         name: 'foreign',

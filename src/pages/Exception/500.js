@@ -1,5 +1,6 @@
 import React from 'react';
 import { formatMessage } from 'umi/locale';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import Link from 'umi/link';
 import Exception from '@/components/Exception';
 

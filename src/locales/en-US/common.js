@@ -150,4 +150,6 @@ export default {
   'app.common.hour':'h',
   'app.common.min':'m',
   'app.common.sen':'s',
+  'app.common.chooseOtherProject':'Please Choose Projects',
+  'app.common.choose':'Choose',
 }

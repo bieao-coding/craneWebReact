@@ -12,10 +12,22 @@ export async function getProjectById(id) {
   return request(`${baseUrl}/${id}`);
 }
 
-/*编辑角色*/
+export async function getOtherProject(id) {
+  return request(`${baseUrl}/other/${id}`);
+}
+
 export async function editProject(params) {
   return request(`${baseUrl}`, {
     method:'PUT',
+    body: {
+      ...params
+    },
+  });
+}
+
+export async function otherProject(params) {
+  return request(`${baseUrl}`, {
+    method:'POST',
     body: {
       ...params
     },
